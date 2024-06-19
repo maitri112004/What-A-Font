@@ -1,0 +1,116 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Kurale&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+
+body {
+    font-family: 'Loved', sans-serif;
+    
+    padding: 20px;
+}
+
+.container {
+    background: #dfb9c254;
+    padding: 20px 40px;
+    border-radius: 10px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    margin: 0 auto;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lyrics{
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    
+    color:  rgb(239, 147, 171);
+}
+
+h1:hover{
+    color: rgb(211, 149, 183);
+}
+
+p {
+   
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Emphasis Styles */
+.dreamy {
+    font-family: "Dancing Script";
+    color: #8a3755;
+    font-size: 28px;   
+}
+
+.dreamy:hover{
+    color: white;
+}
+
+
+.nature{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(199, 132, 134)
+}
+
+.nature:hover{
+    color: white;
+}
+
+
+.life{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    color: #c47c7c;
+}
+
+.life:hover{
+    color: white;
+}
+
+.nostalgia{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #ef0952;
+}
+
+.nostalgia:hover{
+    color: white;
+}
+
+
+.relief{
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e992dc;
+  font-size: 23px;
+
+}
+
+.relief:hover{
+    color: white;
+}
